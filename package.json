@@ -1,14 +1,22 @@
 {
   "name": "static-site",
   "version": "1.0.0",
-  "description": "",
+  "description": "Good readme generator",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "James Lamb",
+  "license": "MIT",
   "dependencies": {
     "inquirer": "^6.3.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lambaa94/Good-README-Generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Lambaa94/Good-README-Generator/issues"
+  },
+  "homepage": "https://github.com/Lambaa94/Good-README-Generator#readme"
 }

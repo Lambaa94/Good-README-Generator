@@ -1,6 +1,7 @@
 // function to generate markdown for README
 function generateMarkdown(data){ 
-return `# ${data.title} | https://img.shields.io/badge/license-${data.license}
+return `# ${data.title} | [![License: ${data.license}](https://img.shields.io/badge/License-${data.license}-blue.svg)](https://opensource.org/licenses/${data.license})
+
 
 ## Description
 
@@ -35,8 +36,7 @@ ${data.contributing}
 
 ## Tests
 
-    name: "name"
-If you have any questions about testing please email me at ${data.email}. My github is ${data.name}
+If you have any questions about testing please email me at ${data.email}. My github username is ${data.name}
 
 
 
