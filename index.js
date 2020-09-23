@@ -1,13 +1,13 @@
 var inquirer = require("inquirer")
 var fs = require("fs")
-var markdown = require('./utils/generateMarkdown')
+require('./utils/generateMarkdown')
 
 
 // √
 // array of questions for user
 const questions = [ {
     type: "input",
-    message: "What is your user name?",
+    message: "What is your GitHub user name?",
     name: "name"
 },
 {
@@ -50,6 +50,11 @@ const questions = [ {
     name: "usage"
 },
 {
+    type:"input",
+    message:"Write if you have any collaborators, used third-party assets or use tutorials.",
+    name:"credits"
+},
+{
     type: "input",
     message: "What does the user need to know about contributing to the repo?",
     name: "contributing"
@@ -59,19 +64,20 @@ const questions = [ {
 
 // function to write README file
 function writeToFile(fileName, data) {
-    // this should be here?
-    generateMarkdown();
-    // and this?
-    fs.writeFile("README.md", data)
+   
+    questions.name = answers
+  
+    fs.writeFile("Generate.md", data)
 }
 
 // function to initialize program
 function init() { 
-    // this seems √
-    inquirer.prompt(questions)
-    // idk about this tho
-    writeToFile()
-}
+    
+    inquirer.prompt(questions).then(function(answers){
+    generateMarkdown();
 
+    writeToFile();
+}
+}
 // function call to initialize program
 init();
