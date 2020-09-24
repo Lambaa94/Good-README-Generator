@@ -13,6 +13,8 @@ ${data.description}
 * [Usage](#usage)
 * [Credits](#credits)
 * [License](#license)
+* [Contributing](#contributing)
+* [Tests]()
 
 ## Installations
 
@@ -36,7 +38,11 @@ ${data.contributing}
 
 ## Tests
 
-If you have any questions about testing please email me at ${data.email}. My link to GitHub is https://github.com/${data.name}
+${data.test}
+
+## Questions
+
+If you have any questions please email me at ${data.email}. My link to GitHub is https://github.com/${data.name}
 
 
 
