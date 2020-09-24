@@ -1,9 +1,9 @@
-# Testing Project | [![License: GPL 3.0](https://img.shields.io/badge/License-GPL_3.0-blue.svg)](https://opensource.org/licenses/GPL_3.0)
+# Test Project | [![License: BSD 3](https://img.shields.io/badge/License-BSD_3-blue.svg)](https://opensource.org/licenses/BSD_3)
 
 
 ## Description
 
-Here is a short description of my README generator.
+Here is a short description.
 
 ## Table of Contents
 
@@ -12,7 +12,7 @@ Here is a short description of my README generator.
 * [Credits](#credits)
 * [License](#license)
 * [Contributing](#contributing)
-* [Tests]()
+* [Tests](#tests)
 
 ## Installations
 
@@ -20,19 +20,19 @@ npm i
 
 ## Usage
 
-For usage please refer to the main repo's Readme file.
+The usage would go here.
 
 ## Credits
 
-Instruction by Dave Leonhardt and Vincent Gubitosi
+
 
 ## License
 
-This repo is under the GPL 3.0 License
+This repo is under the BSD 3 License
 
 ## Contributing
 
-commit early and commit often!
+The user needs to commit early and often!
 
 ## Tests
 
@@ -40,7 +40,7 @@ npm test
 
 ## Questions
 
-If you have any questions please email me at jameslamb13@gmail.com. My link to GitHub is https://github.com/Lambaa94
+If you have any questions please email me at myemail@email.com. My link to GitHub is https://github.com/myusername
 
 
 

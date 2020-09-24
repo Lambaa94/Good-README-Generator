@@ -14,7 +14,7 @@ ${data.description}
 * [Credits](#credits)
 * [License](#license)
 * [Contributing](#contributing)
-* [Tests]()
+* [Tests](#tests)
 
 ## Installations
 

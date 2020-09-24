@@ -22,7 +22,7 @@ npm install
 
 *Below is a video of how to use the generator.*
  
- ![Gif-of-README](nodeReadMe.gif)
+ ![Gif-of-README](genReadMe.gif)
 
  *Below is a link to my GitHub Repo*
 
